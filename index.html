@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Documentation Page</title>
+    </head>
+  <body>
+    <nav id="navbar">
+    <header>HTML documentation</header>
+    <div class="seperate"></div>
+    <a href="#Introduction" class="nav-link">Introduction</a>
+    <div class="seperate"></div>
+    <a href="#Basic_Structure_of_an_HTML_Page" class="nav-link">Basic Structure of an HTML Page</a>
+    <div class="seperate"></div>
+    <a href="#Working_with_HTML_Tags" class="nav-link">Working with HTML Tags</a>
+    <div class="seperate"></div>
+    <a href="#Styling_with_CSS" class="nav-link">Styling with CSS</a>
+    <div class="seperate"></div>
+    <a href="#Adding_Interactivity_with_JavaScript" class="nav-link">Adding Interactivity with JavaScript</a>
+    <div class="seperate"></div>
+    <a href="#Best_Practices_and_Resources" class="nav-link">Best Practices and Resources</a>
+  </nav>
+
+    <main id="main-doc">
+      
+      <section class="main-section" id="Introduction">
+        <header class="title-section">Introduction</header>
+        <p>HTML (HyperText Markup Language) is the standard language used to create web pages.</p> 
+        <p>It structures the content of a page using tags that define elements such as headings, paragraphs, images, and links.</p> 
+        <p>Understanding the basics of HTML is essential for any web developer, as it serves as the foundation for all websites.</p>
+
+<p>In this documentation, we will explore the fundamental elements of an HTML page, the basic structure of an HTML file, and the essential tags you need to know to start building your own websites.</p> 
+<p>You will also learn how to work with these tags, how to organize them efficiently, and how to style them with CSS to enhance the appearance of your site.</p>
+      </section>
+
+      <section class="main-section" id="Basic_Structure_of_an_HTML_Page">
+        <header class="title-section">Basic Structure of an HTML Page</header>
+        <p>An HTML page is structured using a set of foundational tags that define both the content and the metadata of the document. These elements ensure the browser understands how to interpret and display the page properly. Below are the most essential parts of a basic HTML document:</p>
+        <ul>
+          <li><pre class="code"><code>&lt;!DOCTYPE html&gt;</code></pre>
+           Declares the document as HTML5 so the browser knows how to render it.</li>
+          <li>
+            <pre class="code"><code>&lt;html&gt;</code></pre>
+             The root element that wraps the entire HTML content.
+          </li>
+          <li>
+            <pre class="code"><code>&lt;head&gt;</code></pre>
+             Contains meta information, links to CSS files, the title, and other settings not visible to the user.
+          </li>
+          <li>
+            <pre class="code"><code>&lt;meta charset="UTF-8"&gt;</code></pre>
+             Ensures the page uses the UTF-8 character encoding, supporting most characters.
+          </li>
+          <li>
+            <pre class="code"><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code></pre>
+             Helps the site scale correctly on different screen sizes, improving mobile responsiveness.
+          </li>
+          <li>
+            <pre class="code"><code>&lt;link rel="stylesheet" href="style.css"&gt;</code></pre>
+             Links an external CSS file to style the page.
+          </li>
+          <li>
+            <pre class="code"><code>&lt;title&gt;</code></pre>
+             Sets the title of the page, which appears in the browser tab.
+          </li>
+          <li>
+            <pre class="code"><code>&lt;body&gt;</code></pre>
+             Contains all the visible content that will be shown on the page.
+          </li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Working_with_HTML_Tags">
+        <header class="title-section">Working with HTML Tags</header>
+        <p>HTML tags are the building blocks of any HTML document. They are used to define the structure and content of a webpage.</p> 
+        <p>Tags are enclosed in angle brackets and usually come in pairs: an opening tag and a closing tag.</p> 
+        <p>For example, the 
+            <code class="code-text">&lt;h1&gt;</code>
+           tag is used to define a main heading, and it must be closed with the 
+            <code class="code-text">&lt;/h1&gt;</code>
+            tag. Some tags, like the 
+            <code class="code-text">&lt;img&gt;</code>
+             tag, do not require a closing tag and are self-closing.</p>
+
+        <p>Understanding how to work with different types of HTML tags is essential for building well-structured web pages.  </p> 
+        <p>Some tags define sections of content, such as 
+          <code class="code-text">&lt;header&gt;</code>, 
+          <code class="code-text">&lt;article&gt;</code>, and 
+          <code class="code-text">&lt;footer&gt;</code>, while others format text, like 
+          <code class="code-text">&lt;b&gt;</code> for bold text and 
+          <code class="code-text">&lt;i&gt;</code> for italics. </p> 
+          <p>Mastering the use of these tags allows web developers to create organized, readable, and accessible web pages.</p>
+      </section>
+
+      <section class="main-section" id="Styling_with_CSS">
+        <header class="title-section">Styling with CSS</header>
+        <p>CSS (Cascading Style Sheets) is a powerful tool used to control the appearance and layout of a web page.
+          </p>      
+        <p>It allows web developers to separate the content of the page from its visual design.
+          </p> 
+          <p>Using CSS, you can change colors, fonts, spacing, and positioning of elements to create a visually appealing website.</p>
+
+        <p>To apply CSS to an HTML document, you can include styles directly within the HTML using the 
+          <code class="code-text">&lt;style&gt;</code>
+           tag, or link to an external stylesheet using the 
+           <code class="code-text">&lt;link&gt;</code>
+            tag in the 
+            <code class="code-text">&lt;head&gt;</code>
+             section.
+             </p> 
+          <p>External stylesheets are preferred for larger projects because they keep the HTML clean and allow for easier maintenance of the site’s design.</p>
+      </section>
+      <section class="main-section" id="Adding_Interactivity_with_JavaScript">
+        <header class="title-section">Adding Interactivity with JavaScript</header>
+        <p>JavaScript is a powerful programming language that enables you to add interactivity to your web pages. With JavaScript, you can create dynamic content, such as interactive forms, animations, and responsive elements.</p>
+         <p>It runs directly in the browser, allowing you to modify the HTML and CSS of a page without needing to reload it. </p> 
+         <p>By manipulating the Document Object Model (DOM), JavaScript lets you access, update, and style various elements on the page, making it an essential tool for modern web development.</p>
+      </section>
+
+      <section class="main-section" id="Best_Practices_and_Resources">
+        <header class="title-section">Best Practices and Resources</header>
+        <p>Best practices in web development help ensure that your websites are efficient, maintainable, and accessible. They include writing clean and readable code, using semantic HTML tags, optimizing page performance, and ensuring cross-browser compatibility.</p> 
+        <p>Additionally, staying updated with the latest trends and technologies, following coding standards, and using version control systems like Git are essential for professional development.</p> 
+        <p>Web developers should also prioritize accessibility by ensuring that websites are usable for people with disabilities.</p> 
+        <p>Resources such as online tutorials, documentation, and communities can be invaluable for continuous learning and improvement.</p>
+
+        <ol>
+          <li class="ol-list">
+            Writing clean and readable code that follows best practices ensures maintainability and makes collaboration easier.
+            </li>
+          <li class="ol-list">
+            Ensuring mobile responsiveness is critical to providing a good user experience on all device sizes.
+            </li>
+          <li class="ol-list">
+            Optimizing resources, such as images and scripts, helps improve page load times, leading to better performance and SEO.
+            </li>
+          <li class="ol-list">
+            Using semantic HTML tags enhances accessibility and helps search engines understand the content structure.
+            </li>
+          <li class="ol-list">
+            Continuously learning and staying updated with the latest web development trends is essential for improving your skills and staying competitive.
+            </li>
+        </ol>
+      </section>
+    </main>
+  </body>
+</html>
